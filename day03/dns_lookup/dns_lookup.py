@@ -9,6 +9,7 @@ resolver.nameservers = ['8.8.8.8', '8.8.4.4']
 def get_a_records(domain):
     try:
         answers = resolver.resolve(domain, 'A')
+        print(f"  [TTL: {answers.rrset.ttl}s]")
         for answer in answers:
             print(f"  A Record: {answer}")
     except dns.resolver.NoAnswer:
@@ -21,6 +22,7 @@ def get_a_records(domain):
 def get_aaaa_records(domain):
     try:
         answers = resolver.resolve(domain, 'AAAA')
+        print(f"  [TTL: {answers.rrset.ttl}s]")
         for answer in answers:
             print(f"  AAAA Record: {answer}")
     except dns.resolver.NoAnswer:
@@ -33,6 +35,7 @@ def get_aaaa_records(domain):
 def get_mx_records(domain):
     try:
         answers = resolver.resolve(domain, 'MX')
+        print(f"  [TTL: {answers.rrset.ttl}s]")
         for answer in answers:
             print(f"  MX Record: {answer}")
     except dns.resolver.NoAnswer:
@@ -45,6 +48,7 @@ def get_mx_records(domain):
 def get_ns_records(domain):
     try:
         answers = resolver.resolve(domain, 'NS')
+        print(f"  [TTL: {answers.rrset.ttl}s]")
         for answer in answers:
             print(f"  NS Record: {answer}")
     except dns.resolver.NoAnswer:
@@ -57,6 +61,7 @@ def get_ns_records(domain):
 def get_txt_records(domain):
     try:
         answers = resolver.resolve(domain, 'TXT')
+        print(f"  [TTL: {answers.rrset.ttl}s]")
         for answer in answers:
             print(f"  TXT Record: {answer}")
     except dns.resolver.NoAnswer:
@@ -69,6 +74,7 @@ def get_txt_records(domain):
 def get_cname_records(domain):
     try:
         answers = resolver.resolve(domain, 'CNAME')
+        print(f"  [TTL: {answers.rrset.ttl}s]")
         for answer in answers:
             print(f"  CNAME Record: {answer}")
     except dns.resolver.NoAnswer:
@@ -82,6 +88,7 @@ def reverse_lookup(ip):
     try:
         rev_name = dns.reversename.from_address(ip)
         answers = resolver.resolve(rev_name, 'PTR')
+        print(f"  [TTL: {answers.rrset.ttl}s]")
         for answer in answers:
             print(f"  PTR Record: {answer}")
     except Exception as e:
