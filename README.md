@@ -18,7 +18,7 @@ By Day 30: a real portfolio of tools I built myself.
 |-----|---------|--------|
 | 01 | [Multi-Cipher Encoder/Decoder](day01/cipher-tool/) | ✅ Done |
 | 02 | [Simple Port Scanner](day02/port-scanner/) | ✅ Done |
-| 03 | TBD | ⬜ |
+| 03 | [DNS Lookup CLI](day03/dns_lookup/) | ✅ Done |
 | 04 | TBD | ⬜ |
 | 05 | TBD | ⬜ |
 | 06 | TBD | ⬜ |
