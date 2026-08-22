@@ -90,7 +90,7 @@ Exports captured packets to a `.pcap` file you can open in Wireshark or analyze 
 - **Network interfaces:** Your computer has multiple network adapters, each captures different traffic.
 - **PCAP format:** The standard format for storing captured network traffic.
 - **Counter from collections:** Efficient way to count and rank occurrences.
-- **Why admin is needed:** Raw packet capture requires kernel privileges because it bypasses normal network stack restrictions.
+- **Why admin is needed:** Raw packet capture normally requires kernel privileges because it bypasses normal network stack restrictions. On Windows, Npcap can optionally allow non-admin users to capture.
 
 ---
 
@@ -110,7 +110,7 @@ pip install scapy
 
 Windows also requires [Npcap](https://npcap.com/#download) installed with "WinPcap API-compatible mode" checked.
 
-Must run as **Administrator** for live packet capture.
+Must run as **Administrator** for live packet capture (unless Npcap was installed with "Allow non-administrators to capture packets" enabled).
 
 ---
 
