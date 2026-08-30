@@ -23,7 +23,7 @@ By Day 30: a real portfolio of tools I built myself.
 | 05 | [Metadata Scraper](day05/metadata/) | ✅ Done |
 | 06 | [Network Traffic Analyzer](day06/network_traffic_annalyser/) | ✅ Done |
 | 07 | TBD | ⬜ |
-| 08 | TBD | ⬜ |
+| 08 | [Linux CIS Hardening Auditor](day08/auditor/) | ✅ Done |
 | 09 | TBD | ⬜ |
 | 10 | TBD | ⬜ |
 | 11 | TBD | ⬜ |
