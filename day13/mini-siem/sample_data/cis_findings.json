@@ -1,0 +1,5 @@
+[
+  {"check": "SSH root login disabled", "cis_ref": "CIS 5.2.10", "status": "FAIL", "severity": "HIGH"},
+  {"check": "UFW firewall active", "cis_ref": "CIS 3.5.1.1", "status": "FAIL", "severity": "HIGH"},
+  {"check": "auditd running", "cis_ref": "CIS 4.1.1.1", "status": "WARN", "severity": "MEDIUM"}
+]

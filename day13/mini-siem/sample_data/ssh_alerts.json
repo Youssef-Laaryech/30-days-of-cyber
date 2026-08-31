@@ -1,0 +1,20 @@
+[
+  {
+    "source_ip": "45.33.32.156",
+    "failed_attempts": 7,
+    "usernames_tried": ["admin", "root", "test"],
+    "login_succeeded": false,
+    "severity": "HIGH",
+    "mitre_techniques": ["T1110 Brute Force", "T1110.003 Password Spraying"],
+    "recommended_action": "sudo ufw deny from 45.33.32.156"
+  },
+  {
+    "source_ip": "185.220.101.45",
+    "failed_attempts": 8,
+    "usernames_tried": ["admin", "administrator", "guest", "root", "support"],
+    "login_succeeded": true,
+    "severity": "CRITICAL",
+    "mitre_techniques": ["T1110 Brute Force", "T1078 Valid Accounts (possible breach)"],
+    "recommended_action": "sudo ufw deny from 185.220.101.45"
+  }
+]

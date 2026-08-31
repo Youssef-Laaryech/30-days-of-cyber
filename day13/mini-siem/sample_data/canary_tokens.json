@@ -1,0 +1,22 @@
+[
+  {
+    "id": "b2ba2221",
+    "type": "envfile",
+    "memo": "fake .env in billing repo",
+    "mitre_engage": "EAC0011 Lures / EAC0005 Decoy Credentials",
+    "triggered": true,
+    "triggers": [
+      {"time": "2026-08-31 22:44:33", "source_ip": "45.33.32.156", "user_agent": "curl/8.21.0"}
+    ]
+  },
+  {
+    "id": "bc0660c2",
+    "type": "aws",
+    "memo": "fake aws creds on admin laptop",
+    "mitre_engage": "EAC0005 Decoy Credentials",
+    "triggered": true,
+    "triggers": [
+      {"time": "2026-08-31 22:53:05", "source_ip": "185.220.101.45", "user_agent": "python-requests/2.31"}
+    ]
+  }
+]
