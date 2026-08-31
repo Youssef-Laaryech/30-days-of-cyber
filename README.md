@@ -25,7 +25,7 @@ By Day 30: a real portfolio of tools I built myself.
 | 07 | TBD | ⬜ |
 | 08 | [Linux CIS Hardening Auditor](day08/auditor/) | ✅ Done |
 | 09 | [SSH Brute Force Detector](day09/ssh-detector/) | ✅ Done |
-| 10 | TBD | ⬜ |
+| 10 | [Systemd Persistence Scanner](day10/persistance-scanner/) | ✅ Done |
 | 11 | TBD | ⬜ |
 | 12 | TBD | ⬜ |
 | 13 | TBD | ⬜ |

