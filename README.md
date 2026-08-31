@@ -29,6 +29,7 @@ By Day 30: a real portfolio of tools I built myself.
 | 11 | [Secrets Scanner](day11/secrets-scanner/) | ✅ Done |
 | 12 | [Canary Token Generator](day12/canary-generator/) | ✅ Done |
 | 13 | [Mini SIEM](day13/mini-siem/) | ✅ Done |
+| 15 | [HTTP Security Header Scanner](day15/header-scanner/) | ✅ Done |
 | 14 | TBD | ⬜ |
 | 15 | TBD | ⬜ |
 | 16 | TBD | ⬜ |
