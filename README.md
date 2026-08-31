@@ -27,7 +27,7 @@ By Day 30: a real portfolio of tools I built myself.
 | 09 | [SSH Brute Force Detector](day09/ssh-detector/) | ✅ Done |
 | 10 | [Systemd Persistence Scanner](day10/persistance-scanner/) | ✅ Done |
 | 11 | [Secrets Scanner](day11/secrets-scanner/) | ✅ Done |
-| 12 | TBD | ⬜ |
+| 12 | [Canary Token Generator](day12/canary-generator/) | ✅ Done |
 | 13 | TBD | ⬜ |
 | 14 | TBD | ⬜ |
 | 15 | TBD | ⬜ |

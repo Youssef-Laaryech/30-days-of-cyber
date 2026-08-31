@@ -1,3 +1,5 @@
 __pycache__/
 *.pyc
 rockyou.txt
+day12/canary-generator/artifacts/
+day12/canary-generator/tokens.json
